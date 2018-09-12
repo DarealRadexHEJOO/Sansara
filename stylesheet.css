@@ -1,0 +1,353 @@
+body {
+	background-color: #caf2f1;
+	background-image: linear-gradient(to right, #caf2f1, #e9bd97);
+	/*min-width: 650px;*/
+}
+
+h1 {
+	font-family: 'ff-good-headline-web-pro-ext', sans-serif;
+	/*font-family: 'Roboto', sans-serif;*/
+}
+
+h2 {
+	font-family: 'ff-good-headline-web-pro-ext', sans-serif;
+	/*font-family: 'Roboto', sans-serif;*/
+}
+
+p {
+	font-family: 'sofia-pro', sans-serif;
+	/*font-family: 'Roboto', sans-serif;*/
+	color: #868782;
+}
+
+.topbar {
+	width: 100%;
+	height: 150px;
+	position: relative;
+}
+
+.top {
+	display: inline-block;
+}
+
+#sansara_small {
+	position: absolute;
+	top: 30px;
+	left: 40px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+.media {
+	width: 80px;
+	top: 60px;
+	margin: auto;
+	text-align: center;
+	position: relative;
+	z-index: 1;
+}
+
+#instagram {
+	cursor: pointer;
+	
+}
+
+#facebook{
+	cursor: pointer;
+	
+}
+
+.language {
+	width: 100%;
+	top: 50px;
+	right: 40px;
+	text-align: right;
+	position: absolute;
+}
+
+#pl {
+	font-family: 'ff-good-headline-web-pro-ext', sans-serif;
+	height: 24px;
+	width: 30px;
+	color: black;
+	text-align: center;
+	font-size: 18px;
+	cursor: pointer;
+	z-index: 2;
+}
+
+#pl:hover {
+	text-decoration: underline;
+}
+
+#en {
+	font-family: 'ff-good-headline-web-pro-ext', sans-serif;
+	height: 24px;
+	width: 30px;
+	color: black;
+	text-align: center;
+	font-size: 18px;
+	cursor: pointer;
+	z-index: 2;
+}
+
+#en:hover {
+	text-decoration: underline;
+}
+
+.language_select {
+	background-color: red;
+}
+
+.drops {
+	position: relative;
+	width: 49%;
+	/*height: 210px;*/
+	display: inline-block;
+}
+
+.drops img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+#drop_a {
+	position: absolute;
+	top: 0;
+	left: 30%;
+	width: 3%;
+}
+
+#drop_b {
+	position: absolute;
+	bottom: 5%;
+	right: 6%;
+	width: 3%;
+}
+
+#drop_c {
+	position: absolute;
+	bottom: 8%;
+	left: 12%;
+	width: 9%;
+}
+
+.drops_desc {
+	position: relative;
+	width: 49%;
+	/*height: 210px;*/
+	display: inline-block;
+}
+
+.drops_desc p {
+	/*margin-left: 10%;
+	margin-right: 10%;*/
+}
+
+.group_drop {
+	position: relative;
+	width: 49%;
+	/*height: 210px;*/
+	display: inline-block;
+}
+
+.group_drop img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.group_drop_desc {
+	position: relative;
+	width: 49%;
+	/*height: 210px;*/
+	display: inline-block;
+}
+
+.group_drop_desc p {
+	/*margin-left: 10%;
+	margin-right: 10%;*/
+}
+
+.director_info {
+	border-bottom: 1px solid black;
+}
+
+.director {
+	font-family: 'ff-good-headline-web-pro-ext', sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+.director_name {
+	font-family: 'ff-good-headline-web-pro-ext', sans-serif;
+	font-weight:bold;
+	font-size: 20px;
+	letter-spacing: 1px;
+	color: black;
+}
+
+.check {
+	background-color: #bab8ac;
+	color: white;
+	border: none;
+	font-family: 'ff-good-headline-web-pro-ext', sans-serif;
+	/*font-family: 'Roboto', sans-serif;*/
+	font-size: 20px;
+	font-weight: 510;
+	letter-spacing: 2px;
+	cursor: pointer;
+}
+
+.misjawizja {
+	margin-left: 20%;
+	margin-right: 20%;
+	min-width: 340px;
+	/*height: 250px;*/
+	background-color: #fff2dd;
+	padding: 20px;
+}
+
+.misjawizja_text {
+	width: 49%;
+	display: inline-block;
+	border-right: 1px solid black;
+	vertical-align: middle;
+}
+
+.misjawizja_sel {
+	width: 49%;
+	display: inline-block;
+    text-align: center;
+	font-size: 28px;
+}
+
+.right {
+	cursor: pointer;
+}
+
+.left {
+	cursor: pointer;
+}
+
+/*.topbar {
+	width: 100%;
+	position: relative;
+	overflow: auto;
+}
+
+.topbar img{
+	display: inline-block;
+	position: absolute;
+}
+
+
+.topbar img #instagram{
+	margin-left: 40%;
+}
+
+.topbar img #facebook{
+	margin-left: 40%;
+}*/
+
+
+
+/*.sansara_group {
+	position: relative;
+	width: 280px;
+	height: 151px;
+}
+
+.sansara_group img {
+	position: absolute;
+}
+
+#drop_large {
+	top: 7px;
+}
+
+#sansara_group_black {
+	color: white;
+	top: 20px;
+}*/
+
+/*.container {
+	
+}*/
+
+@media screen and (max-width: 1000px) {
+	h1 {
+		font-size: 47px;
+	}
+	
+	h2 {
+		
+	}
+	
+	p {
+		font-size: 12px;
+	}
+	
+	.director_info {
+		
+	}
+	
+	.director {
+		font-size: 14px;
+		letter-spacing: normal;
+	}
+	
+	.director_name {
+		font-size: 14px;
+		letter-spacing: normal;
+	}
+	
+	.check {
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 650px) {
+    h1 {
+		font-size: 38px;
+	}
+	
+	h2 {
+		
+	}
+	
+	p {
+		font-size: 10px;
+	}
+	
+	.director_info {
+		
+	}
+	
+	.director {
+		font-size: 11px;
+		letter-spacing: normal;
+	}
+	
+	.director_name {
+		font-size: 11px;
+		letter-spacing: normal;
+	}
+	
+	.check {
+		font-size: 12px;
+	}
+	
+	.misjawizja {
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+}
+
+/*@media screen and (min-width: 1000px) {
+	
+}*/
