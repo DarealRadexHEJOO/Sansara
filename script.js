@@ -97,4 +97,7 @@ $(document).ready( ()=> {
 		$("#drop_c").animate({bottom: "8%"});
 	});
 	
+	$(".right").trigger("click");
+	$(".left").trigger("click");
+	
 });
